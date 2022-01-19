@@ -6,7 +6,7 @@ const TextCard = ({ title, description, ...props }) => {
       <TextCardContainer>
         <TextCardTitle>{title}</TextCardTitle>
         <TextCardDescription>{description}</TextCardDescription>
-        <button>LEARN MORE</button>
+        <button style={{marginBottom: "30px"}}>LEARN MORE</button>
       </TextCardContainer>
     </CardContainer>
   );

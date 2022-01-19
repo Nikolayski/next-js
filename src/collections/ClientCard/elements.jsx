@@ -3,7 +3,11 @@ import styled from "styled-components";
 export const ClientCardContainer = styled(({...props}) => <section {...props} />)`
 text-align: center;
 width: 30%;
+@media (max-width: 750px){
+    width: 100%;
+}
 `
+
 export const ClientCardImageContainer = styled(({...props}) => <div {...props} />)`
 width: 100%;
 `;

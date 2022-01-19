@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Header from "../src/collections/Header/Header";
+import Footer from "../src/components/Footer/Footer";
+import Header from "../src/components/Header/Header";
 import { GlobalStyles } from "../src/styles/globalStyles";
 
 function MyApp({ Component, pageProps }) {
@@ -14,6 +15,7 @@ function MyApp({ Component, pageProps }) {
       <GlobalStyles />
       <Header />
       <Component {...pageProps} />
+      <Footer />
     </section>
   );
 }
