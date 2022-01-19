@@ -18,9 +18,9 @@ export const TextCardTitle = styled(({...props}) => <h2 {...props} />)`
 `;
 
 export const TextCardDescription = styled(({...props}) => <p {...props} />)`
-    font-size: 25px;
+    font-size: 22px;
     width: 90%;
-    line-height: 1.5;
+    line-height: 1.2;
 `;
 
 export const CompleteCardTitle = styled(({...props}) => <h2 {...props} />)`
@@ -35,4 +35,5 @@ export const CompleteCardDescription = styled(({...props}) => <h2 {...props} />)
     margin-top: 70%;
     width: 50%;
     margin-left: 25%;
+    font-weight: 300;
 `;
